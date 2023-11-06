@@ -5207,6 +5207,10 @@ input[type=submit].btn-block {
     overflow: hidden
 }
 
+.fecha-menu{
+    width: 0px;
+}
+
 .accordion>.card:not(:last-of-type) {
     border-bottom: 0;
     border-bottom-right-radius: 0;
@@ -7100,6 +7104,8 @@ button.bg-dark:hover {
 .bg-white {
     background-color: #fff !important
 }
+
+
 
 .bg-transparent {
     background-color: transparent !important
@@ -12597,3 +12603,5 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
     width: 100%
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
