@@ -1,26 +1,14 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { LayoutComponent } from './components/layout/layout.component';
-import { HeaderComponent } from './components/template/header/header.component';
-import { MenuComponent } from './components/template/menu/menu.component';
-import { FooterComponent } from './components/template/footer/footer.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatIconModule } from '@angular/material/icon';
+import { CoreModule } from './modules/core/core.module';
+
+// Esse módulo serve apenas para start da aplicação não devemos importar nada aqui
+// usaremos o Core e o Shared Module para isso.
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    LayoutComponent,
-    HeaderComponent,
-    MenuComponent,
-    FooterComponent
-  ],
+  declarations: [],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-
-    MatIconModule
+    CoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
