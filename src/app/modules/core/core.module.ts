@@ -9,6 +9,8 @@ import { FooterComponent } from 'src/app/components/template/footer/footer.compo
 import { HeaderComponent } from 'src/app/components/template/header/header.component';
 import { MenuComponent } from 'src/app/components/template/menu/menu.component';
 import { SharedModule } from '../shared/shared.module';
+import { DashboardModule } from '../dashboard/dashboard.module';
+
 
 //Nesse módulo são importados os outros módulos necessários para a aplicação.
 
@@ -26,7 +28,11 @@ import { SharedModule } from '../shared/shared.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    SharedModule
+    SharedModule,
+
+    DashboardModule
+
+ 
   ]
 })
 export class CoreModule { }
