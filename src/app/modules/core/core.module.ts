@@ -10,6 +10,7 @@ import { HeaderComponent } from 'src/app/components/template/header/header.compo
 import { MenuComponent } from 'src/app/components/template/menu/menu.component';
 import { SharedModule } from '../shared/shared.module';
 import { DashboardModule } from '../dashboard/dashboard.module';
+import { ComponentsModule } from '../components/components.module';
 
 
 //Nesse módulo são importados os outros módulos necessários para a aplicação.
@@ -30,7 +31,8 @@ import { DashboardModule } from '../dashboard/dashboard.module';
     HttpClientModule,
     SharedModule,
 
-    DashboardModule
+    DashboardModule,
+    ComponentsModule
 
  
   ]
